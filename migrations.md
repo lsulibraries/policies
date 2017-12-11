@@ -4,6 +4,8 @@ Except in certain urgent situations, changes to the Louisiana Digital Library sh
 
 #### dora development workflow
 
+To begin with (Dec 2017), we are using a pretty loose development workflow consisting of feature. stable, testing and production branches. As we go along, our workflow should become more disciplined in the spirit of a best-practice system like [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
+
 ##### Create a portable environment
 
 Capture your work on a [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) based on the master branch of the dora box repo. 
