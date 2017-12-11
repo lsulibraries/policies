@@ -10,13 +10,13 @@ To begin with (Dec 2017), we are using a pretty loose development workflow consi
 
 Capture your work on a [feature branch](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) based on the master branch of the dora box repo. 
 
-Capturing your work in this way makes it possible to share the feature or system configuration that you are interested in. It also enables a final unit test of your work before it goes into the integration test phase, and on to the public environments.
+Capturing your work in this way makes it possible to share the feature or system configuration that you are interested in. It also enables unit testing of your work (as in _testing the work in isolation as a unit, not function-level unit testing_) before it goes into the integration test phase, and on to the public environments.
 
-To facilitate these, the branch should include settings for ingesting any relevant collections, setting variables, enabling particular versions of modules, etc. The goal should be that someone else could reprduce your work environment by cloning and vagrant up-ing on your branch.
+To facilitate these, the branch should include everything  needed to reproduce the environment in which this work is relevant: ingesting collections, setting variables, enabling particular versions of modules, etc. The goal should be that someone else could reprduce your work environment by cloning and vagrant up-ing on your branch.
 
 ##### Is it done ?
 
-Once your work is ready to move out of development on its way to production, there needs to be some documentation that describes at the very least 1) the problem or feature this work solves or presents, and 2) steps to test that your work achieves its goal (in the case of a problem or bugfix, including steps to reproduce is highly encouraged).
+Once your work is ready to move out of development on its way to production, it needs to be tested. You should supply some documentation that describes at the very least 1) the problem or feature this work solves or presents, and 2) steps to test that your work achieves its goal (in the case of a problem or bugfix, including steps to reproduce is highly encouraged). Until there is an obvious best way to do this, include this documentation as a markdown file called testing-<FB-whatever>.md.
 
 #### Test and push procedure
 
