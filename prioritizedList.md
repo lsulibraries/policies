@@ -1,9 +1,9 @@
-who makes what
-    public facing LDL documentation
-        Scott
-    support tickets
-        Scott
-        Mike
+who makes what  
+    public facing LDL documentation  
+        Scott  
+    support tickets  
+        Scott  
+        Mike  
         Cara
     communication channels
         Scott
