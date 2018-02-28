@@ -32,15 +32,45 @@ The S3 transfer is made using the [official](https://docs.aws.amazon.com/cli/lat
 The use of two different tools is intentional - it helps guard against the possibility of a flaw in either one affecting the integrity of both backups.
 
 ### Server-side
-Sync the files to S3 bucket *ldl-fedora-data* using aws cli
+Sync the files to S3 bucket *ldl-fedora-data* using aws cli.
 In crontab (`crontab -e`):
 
 `52 1 * * * /usr/local/bin/aws s3 sync /usr/local/fedora/ s3://ldl-fedora-data/`
 
+The awscli needs to [run as](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) an AWS [IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) user with the following policy attached:
+
+~~~
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "s3:ListBucket",
+            "Resource": "arn:aws:s3:::ldl-fedora-data"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "s3:PutObject",
+                "s3:GetObject",
+                "s3:DeleteObject"
+            ],
+            "Resource": "arn:aws:s3:::ldl-fedora-data/*"
+        }
+    ]
+}
+
+~~~
+
 ### Local backup
 Sync nightly (preferably after the S3 sync) via rsync to local storage
+In crontab (`crontab -e`):
 
-`rsync -avz -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --progress user@box:/usr/local/fedora/data/ /local/path/to/ldl-fedora-data/`
+`42 05 * * * rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" --progress user@box:/usr/local/fedora/data/ /path/to/ldl-fedora-data/ --include="objectStore/***" --include="datastreamStore/***" --exclude="*"`
+
 
 ## Further questions
 
