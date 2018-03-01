@@ -29,6 +29,6 @@ Currently, there are 18 participating institutions in the LDL. Each institution 
 
 The LDL is built with [Islandora](https://islandora.ca/), an open source digital library system based on [Fedora](http://www.fedora-commons.org/), [Drupal](http://drupal.org/), and [Solr](http://lucene.apache.org/solr/).
 
-##About the Louisiana Digital Consortium 
+## About the Louisiana Digital Consortium 
 
 The Louisiana Digital Consortium (LDC) is a partnership of participating Louisiana libraries, museums, archives and cultural heritage institutions. The purpose of the LDC is to be the Louisiana entity under which a variety of digital initiatives and services and cooperative programs are developed and/or sponsored. The LDC provides governance and leadership to ensure the effective operation, orderly growth, and fiscal sustainability of the Louisiana Digital Library and other cooperative programs.
