@@ -35,7 +35,7 @@ The use of two different tools is intentional - it helps guard against the possi
 Sync the files to S3 bucket *ldl-fedora-data* using aws cli.
 In crontab (`crontab -e`):
 
-`52 1 * * * /usr/local/bin/aws s3 sync /usr/local/fedora/ s3://ldl-fedora-data/`
+`52 1 * * * /usr/local/bin/aws s3 sync /usr/local/fedora/data s3://ldl-fedora-data/data --exclude="activemq-data/*" --exclude="resourceIndex/*" --delete`
 
 The awscli needs to [run as](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) an AWS [IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) user with the following policy attached:
 
