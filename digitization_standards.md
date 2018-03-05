@@ -21,6 +21,6 @@ If no fading is present
 
 
 ### Black and White Film
-* 600ppi
+* 600ppi (or higher)
 * Uncompressed TIFF
 * Grayscale 
