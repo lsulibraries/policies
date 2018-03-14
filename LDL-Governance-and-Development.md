@@ -15,7 +15,9 @@ There are currently 22 participating libraries, archives, museums, and historica
 
 ## Additional LDC Documentation
 [LDC Bylaws](https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_Bylaws_rev20151112.pdf)
+
 [LDC Membership Form](https://s3-us-west-2.amazonaws.com/ldc-documents/LDC_membership_form2016.pdf)
+
 [Additional information including LDC Board Meeting Minutes can be found here](http://louisianadigitallibrary.org/#about-ldc)
 
 ## LDL Steering Committee
