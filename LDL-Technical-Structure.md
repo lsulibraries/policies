@@ -10,6 +10,8 @@ The LDL is hosted on Amazon Web Services (AWS), an industry standard web service
 # Backups
 Backups are automated through AWS. Database, application, and application data (Fedora objects) are backed up nightly. Database backups are taken and managed by Amazon RDS. On the application server, each data volume is snapshotted each night, invoked in a cron-like way from Amazon CloudWatch.
 
+Additional local backups are captured and maintained by the LSU staff.
+
 # Namespace and PID
 
 Items in the LDL have a persistent URL that consists of a namespace and a PID. The namespace is collection based, and the second is the collection code. Collection codes were retained from the CONTENTdm instance of the LDL. The PID is a system generated number that is unique to the namespace. If an object is deleted and recreated, a new PID is generated, so care should be taken when editing existing objects.
