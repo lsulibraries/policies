@@ -10,7 +10,7 @@ The LDL is hosted on Amazon Web Services (AWS), an industry standard web service
 # Backups
 Backups are automated through AWS. Database, application, and application data (Fedora objects) are backed up nightly. Database backups are taken and managed by Amazon RDS. On the application server, each data volume is snapshotted each night, invoked in a cron-like way from Amazon CloudWatch.
 
-Additional local backups are captured and maintained by the LSU staff.
+Additional local backups are captured and maintained by the LDL development team.
 
 # Namespace and PID
 
