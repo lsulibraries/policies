@@ -1,7 +1,9 @@
 
 # Infrastructure
 
-Islandora refers to a suite of open source applications. Digital objects and metadata are stored in an instance of [Fedora Commons digital repository system](http://www.fedora-commons.org/). The front end display is provided by [Drupal](https://www.drupal.org/), a content management system used for many websites, including [LSU Libraries' website](http://lib.lsu.edu/). Search is handled by [Apache Solr](https://lucene.apache.org/solr/). More information about the software framework of Islandora is provided in the [Islandora documentation](https://wiki.duraspace.org/display/ISLANDORA/About+Islandora).
+Islandora refers to a suite of open source applications. Digital objects and metadata are stored in an instance of [Fedora Commons digital repository system](http://www.fedora-commons.org/). The front end display is provided by [Drupal](https://www.drupal.org/), a content management system used for many websites, including [LSU Libraries' website](http://lib.lsu.edu/). Search is handled by [Apache Solr](https://lucene.apache.org/solr/). 
+
+More information about the software framework of Islandora is provided in the [Islandora documentation](https://wiki.duraspace.org/display/ISLANDORA/About+Islandora). Additionally, the Florida Virtual Campus maintains excellent documentation as a publicly available wiki at [FL-Islandora Guides](https://fig.wiki.flvc.org/wiki/index.php/Main_Page).
 
 # Cloud hosting
 
