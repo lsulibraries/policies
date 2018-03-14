@@ -42,7 +42,7 @@ The charge of the LDL Steering Commitee is to:
 
 ## LDL Development Team
 
-The LDL Development Team consists of staff of LSU Libraries, primarily from the Technology Initiatives Team. As of the spring 2017, this includes:
+The LDL Development Team consists of staff of LSU Libraries, primarily from the Technology Initiatives Team. As of the spring 2018, this includes:
 
 * Garrett Armstrong, Digital Projects Programmer, garmstrong@lsu.edu
 * Dave Comeaux, Web Development Librarian, davidcomeaux@lsu.edu
@@ -53,6 +53,7 @@ The LDL Development Team consists of staff of LSU Libraries, primarily from the 
 * Jason Peak, Application Development/Computer Manager, jpeak5@lsu.edu
 * Kyle Tanglao, User Interface Designer, ktanglao@lsu.edu
 * Mike Waugh, Systems Librarian, mwaugh2@lsu.edu
+* Scott Ziegler, Head of Digital Programs and Services, sziegler1@lsu.edu
 
 ## Migration
 Much of the development work of 2016 and early 2017 was to migrate 186 digital collections from the CONTENTdm platform to the new Islandora platform. The LDL Development Team migrated over 100,000 (update with final count after migration is complete) digital objects and transformed the accompanying metadata from Dublin Core to MODS.
