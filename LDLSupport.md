@@ -123,3 +123,9 @@
 * Waiting on a response from a vendor, third party, or confirming the fix with the issue creator  
 * Issues assigned to a third party go here  
 * Issues related to future development do not go here  
+
+### References
+
+[ITIL Incident Management](https://wiki.en.it-processmaps.com/index.php/Incident_Management)
+[ITIL Checklist Incident Priority](https://wiki.en.it-processmaps.com/index.php/Checklist_Incident_Priority)
+[Incident Management vs Problem Management](https://www.bmc.com/blogs/incident-management-vs-problem-management-whats-the-difference/)
