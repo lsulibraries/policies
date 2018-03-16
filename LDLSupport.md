@@ -126,6 +126,6 @@
 
 ### References
 
-[ITIL Incident Management](https://wiki.en.it-processmaps.com/index.php/Incident_Management)
-[ITIL Checklist Incident Priority](https://wiki.en.it-processmaps.com/index.php/Checklist_Incident_Priority)
-[Incident Management vs Problem Management](https://www.bmc.com/blogs/incident-management-vs-problem-management-whats-the-difference/)
+[ITIL Incident Management](https://wiki.en.it-processmaps.com/index.php/Incident_Management)  
+[ITIL Checklist Incident Priority](https://wiki.en.it-processmaps.com/index.php/Checklist_Incident_Priority)  
+[Incident Management vs Problem Management](https://www.bmc.com/blogs/incident-management-vs-problem-management-whats-the-difference/)  
