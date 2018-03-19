@@ -16,44 +16,31 @@ Additional local backups are captured and maintained by the LDL development team
 
 # Namespace and PID
 
-Items in the LDL have a persistent URL that consists of a namespace and a PID. The namespace is collection based, and the second is the collection code. Collection codes were retained from the CONTENTdm instance of the LDL. The PID is a system generated number that is unique to the namespace. If an object is deleted and recreated, a new PID is generated, so care should be taken when editing existing objects.
+Items in the LDL have a persistent and unique URLs composed of three main parts. 
+
+* Institution code. This is a unique collection of letters that identifies an institution. 
+* Colleciton code. This is a unique collection of letters and/or numbers that identify a collection. For collections migrated from the earlier CONTENTdm version of the LDL, these codes were retained. 
+* PID. This is an auto-generated unique number that the software uses to differentiate items. 
 
 URLs are constructed in the following fasion: 
 
-[LDL maain domain]/islandora/object/[institution code]-[collection code]%3A[PID]
+http://louisianadigitallibrary.org/islandora/object/[institution code]-[collection code]:[PID]
 
 An example:
 
 http://louisianadigitallibrary.org/islandora/object/lsu-p15140coll12:192
 
-* LDL main domain = louisianadigitallibrary.org
-* institution code (first half of namespace) = lsu
-* collection code (second half of namespace) = p15140coll12
-* thus the namespace is the institution code+collection code, separated by a dash = lsu-p15140coll12
-* URL-encoded code for colon ":" = %3A
+* institution code = lsu
+* collection code = p15140coll12
 * PID = 192
 
-# Branding and institution pages
-
-Permissions and branding
+_Note: Often in URLs, colons_ (:) _encode as_ %3A _so you will likely see the URLs with the following form: http://louisianadigitallibrary.org/islandora/object/lsu-p15140coll12%3A192.
 
 # Collection landing pages
 Although it's not necessarily an "out-of-the-box" feature of Islandora, the LDL Development Team sought to maintain the collection landing pages that are used in the CONTENTdm version of the LDL. These landing pages often include a description of the collection, sometimes with additional content and/or context. Many of the landing pages include a banner image as well. From the landing page are links to the collection objects.
 
 # Test instances
-In addition to the production instance of the LDL at http://ldl.lib.lsu.edu, there is a test instance of the LDL at http://ldltest.lib.lsu.edu as well as for each institution subsite, such as http://hnoc.ldltest.lib.lsu.edu. It can be used to test out new features, new collections, or as a training instance.
+In addition to the production instance of the LDL at http://louisianadigitallibrary.org, there is a test instance of the LDL at http://test.louisianadigitallibrary.org. The test instance can be used to test out new features, new collections, or as a training instance.
 
-The application configuration is scripted in such a way using Ansible scripts in conjuction with Vagrant and VirtualBox (open source virtualization software), so that a new, customized instance of Islandora can be created and used on one's local desktop. The LDL Development Team uses these local instances to experiment with configuration and customization.
+Additionally, local instances of the LDL can be installed using Vagrant and VirtualBox (open source virtualization software). The LDL Development Team uses these local instances to experiment with configuration and customization. For additional information about this option, please contact diglib@lsu.ed.
 
-# Theming
-The theming of the LDL has been developed by Kyle Tanglao. One point of emphasis is that the site be mobile friendly and that the pages be responsive to the size of the screen.
-
-While there is a unifying theme for the entire site, there will be custom theming available for each institution's subsite, with a custom banner and color scheme. Site administrators should contact the LDL Development Team for more information about theming options.
-
-# Navigation features
-Subsite navigation, collection navigation, and other browsing navigation will be developed in Spring 2017.
-
-# Searching
-Basic and advanced search modes are available. Search results include facets that can be chosen to further refine results.
-
-Searches can be limited to certain collections or subsites.
