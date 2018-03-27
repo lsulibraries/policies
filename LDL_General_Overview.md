@@ -9,10 +9,8 @@ Currently, there are 18 participating institutions in the LDL. Each institution 
 * Louisiana State Museum (LSM)
 * Louisiana State University (LSU)
 * Louisiana State University at Shreveport (LSUS)
-* Louisiana State University Health Science
 * Center New Orleans (LSUHSC)
-* Louisiana State University Health Sciences
-* Center Shreveport (LSUHSCS)
+* Louisiana State University Health Sciences Center Shreveport (LSUHSCS)
 * Louisiana Tech University (LATECH)
 * Loyola University New Orleans (LOYNO)
 * McNeese State University (MCNEESE)
