@@ -5,12 +5,11 @@ The Louisiana Digital Consortium (LDC) is a partnership of participating Louisia
 
 There are currently 22 participating libraries, archives, museums, and historical centers participating in the LDL. Each institution contributes the digital items and the descriptive text for their collections. You will find that some of the collections, such as the Teaching History in Louisiana Project, are collaborative projects that include materials from many institutions.
 ## Executive Board
-* Chair: Lora Amsberryaugier, UNO
-* Vice-Chair: Diane Brown, State Library
-* Immediate Past Chair: Carol Bartels, HNOC
-* Treasurer: Debbie Sibley, LSUHSC – NO
+* Chair: Diane Brown, State Library (dbrown@crt.la.gov)
+* Vice-Chair: Deborah Poole, Loyola
+* Immediate Past Chair: Lora Amsberryaugier, UNO
+* Treasurer: Debbie Johnson-Houston, McNeese
 * Secretary: Jeff Rubin, Tulane
-* At Large: Deborah Poole, Loyola
 * At Large: Gina Costello, LSU
 
 ## Additional LDC Documentation
@@ -39,6 +38,7 @@ The charge of the LDL Steering Commitee is to:
 * Member: Elizabeth Kelly, Loyola
 * Member: Pati Threatt, McNeese
 * Member: Kent Woynowski, HNOC
+* Member: James Hodges, UNO
 
 ## LDL Development Team
 
