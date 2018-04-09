@@ -2,7 +2,7 @@
 
 ## In general
 
-These guidelines are written assuming a git-flow development model and adherence to the semantic versioning scheme.
+These guidelines are written assuming a git-flow development model and we follow the semantic versioning scheme.
 
 ## Release cycle
 
@@ -11,14 +11,14 @@ These guidelines are written assuming a git-flow development model and adherence
 When we are ready to cut a release because:
 - known deadline
 - enough features accumulated on `develop` branch,
-We will create a new branch called x.y.z-rc1, which will pass next to an automated testing phase
+We will create a new branch called x.y.z-rc1, which will pass next to a release testing phase
 
-### Automated testing
+### Release testing
 
-- coding standards checks (when we get fancy)
 - Run islandora core tests
 - Run lsulibraries (forks, custom modules) tests
 - Run behavioral tests (automated browser clicks, selenium)
+- coding standards checks (when we get fancy)
 
 when these tests are passing, move to a public testing environment (test.louisianadigitallibrary.org).
 
