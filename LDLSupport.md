@@ -32,8 +32,10 @@
 * A due date is assigned that is 24 hours after the issue is opened. An initial response is required within that period.
 	* **When an issue is acknowledged, it is moved into First Response/Triage column.**
 * Only issues that have not been responded to should be in this column.
-* An acknowledgement of receipt can be as simple as "I'm looking into this", but can be more complex. 
+* An acknowledgement of receipt can be as simple as "I'm looking into this", but can be more complex.
+* [ ] **To do: Make template for first response template**
 * Once first response is complete, move to Triage column.
+
 
 ## Triage
 
@@ -95,16 +97,19 @@
             * High/medium or Medium/high
                 * Escalate
                 * Start work ASAP
-                * Target resolution - 4 hours
+                * Target resolution - 4-8 hours
         * Medium
             * Medium/medium or High/Low
-                * Target resolution - 1 day
+                * Target resolution - 2-3 days
+                * try to resolve in current sprint
         * Low
             * Medium/low or Low/Medium
-                * Target resolution - 1 week
+                * Target resolution - 1-2 weeks 
+                * schedule work for next sprint
         * Very low
             * Low/Low
                 * Target resolution - 1 month
+                * schedule work for next month
 * After clarifying the issue and categorizing, the issue can be assigned
 
 ## Assign to Collection Management/Metadata
@@ -123,6 +128,14 @@
 * Waiting on a response from a vendor, third party, or confirming the fix with the issue creator  
 * Issues assigned to a third party go here  
 * Issues related to future development do not go here  
+
+## Periodic review
+
+* The Support Desk Manager is responsible for periodic (weekly?) review of all open tickets.
+    * Check in with any team members who might have information
+    * Have full or partial team meetings if necessary  
+    * Reassign tasks or bug reports if necessary
+    * Contact ticket owner and update with status update
 
 ### References
 
