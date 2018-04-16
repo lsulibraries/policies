@@ -1,10 +1,13 @@
 # Overview
+This section is intended to describe how we handle releases.
+
+# Branching
+
+In order to keep the work of
 
 ## gitflow branching model
 
 **Prerequisite reading**: [the original blog post describing gitflow](http://nvie.com/posts/a-successful-git-branching-model/)
-
-Keep a link to the prerequisite reading handy for reference.
 
 ## In LDL ...
 
